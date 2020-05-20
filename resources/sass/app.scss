@@ -217,6 +217,15 @@ a:hover {
     color: $anchor-hover;
 }
 
+img {
+    transition: filter 0.5s ease-in-out;
+    filter: grayscale(0%);
+  }
+
+  img:hover {
+    filter: grayscale(100%);
+  }
+
 .section-one {
     height: auto;
     padding: 1em;

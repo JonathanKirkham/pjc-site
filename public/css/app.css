@@ -199,6 +199,19 @@ a:hover {
   color: #d3d3d3;
 }
 
+img {
+  transition: -webkit-filter 0.5s ease-in-out;
+  transition: filter 0.5s ease-in-out;
+  transition: filter 0.5s ease-in-out, -webkit-filter 0.5s ease-in-out;
+  -webkit-filter: grayscale(0%);
+          filter: grayscale(0%);
+}
+
+img:hover {
+  -webkit-filter: grayscale(100%);
+          filter: grayscale(100%);
+}
+
 .section-one {
   height: auto;
   padding: 1em;
@@ -563,7 +576,7 @@ footer {
 @media only screen and (max-width: 900px) {
   .section-one {
     flex-direction: column;
-    top: 100vh;
+    top: 120vh;
   }
 
   .section-two {
@@ -684,7 +697,7 @@ footer {
   }
 
   #particles-js {
-    height: 50em;
+    height: 58em;
   }
 
   #nav {
