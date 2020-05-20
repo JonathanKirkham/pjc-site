@@ -10,9 +10,7 @@
         <h2>É o Nosso Projeto </h2>
         <h5>Descubra como uma empresa de jovens<h5>
         <h5>pode transformar sua empresa</h5>
-        <div class="banner-bt">
-            <a class="bt" href="#" role="button">Saiba Mais</a>
-        </div>
+         <a class="bt" href="#" role="button">Saiba Mais</a>
     </div>
     </div>
     <div id="particles-js">
@@ -26,7 +24,7 @@
             desenvolvem serviços de assessoria e consultoria empresarial especializada que se adequassem à realidade econômica de micro e
             pequenas empresas situadas na região metropolitana do Recife. Proporcionando soluções através de serviços de consultoria nas áreas
             de Gestão de Pessoas, Marketing e Financeiro.</p>
-            <a type="button" class="bt" onclick=parent.open("{{route('contact')}}")>Marque sua Reunião Conosco</a>
+            <a class="bt" type="button onclick=parent.open("{{route('contact')}}")>Marque sua Reunião Conosco</a>
         </div>
 </section>
     <section class="section-two">
@@ -42,7 +40,7 @@
 
             <h5>LUIZ FELIPE - CEO
             DATACERT - CLIENTE DA PROJETOS JR. CONSULTORIA</h5>
-            <a type="button" class="bt" onclick=parent.open("{{route('contact')}}")>Marque sua Reunião Conosco</a>
+            <a class="bt" type="button onclick=parent.open("{{route('contact')}}")>Marque sua Reunião Conosco</a>
         </div>
     </section>
     <section class="section-three">
@@ -51,7 +49,7 @@
             <h1>Midia</h1>
             <p>Empresas Júnior preparam estudantes da graduação para o mercado de trabalho
             Organização administrada por graduandos faz o aluno aplicar na prática o que aprende em sala de aula.</p>
-            <a type="button" class="bt" onclick=parent.open('https://g1.globo.com/especial-publicitario/educa-mais-brasil/noticia/empresas-junior-preparam-estudantes-da-graduacao-para-o-mercado-de-trabalho.ghtml')>Veja Mais</a>
+            <a class="bt" type="button" onclick=parent.open('https://g1.globo.com/especial-publicitario/educa-mais-brasil/noticia/empresas-junior-preparam-estudantes-da-graduacao-para-o-mercado-de-trabalho.ghtml')>Veja Mais</a>
         </div>
     </section>
     @include('partials.partners')
