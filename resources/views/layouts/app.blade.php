@@ -17,5 +17,10 @@
         <script src={{asset('js/app.js')}}></script>
         <script src = {{asset('js/script.js')}}></script>
         <script src={{asset('js/particles.min.js')}}></script>
+        <script>
+            particlesJS.load('particles-js', '../js/config.json', function() {
+                console.log('callback - config.json config loaded');
+            });
+        </script>
     </body>
 </html>

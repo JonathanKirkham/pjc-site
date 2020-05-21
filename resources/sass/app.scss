@@ -4,7 +4,7 @@
 // Variables
 @import 'variables';
 
-* {
+*, *::before, *::after {
     box-sizing: border-box;
 }
 
@@ -126,6 +126,7 @@ p {
     color: $button-text;
     border: 1px solid transparent;
     padding: .375rem .75rem;
+    margin-bottom: 10px;
     font-size: 1rem;
     line-height: 1.5;
     border-radius: .25rem;
@@ -606,15 +607,17 @@ footer {
 @media only screen and (max-width: 900px) {
     .section-one {
         flex-direction: column;
-        top: 120vh;
+        top: 100vh;
     }
 
     .section-two {
         flex-direction: column;
+        top: 100vh;
     }
 
     .section-three {
         flex-direction: column;
+        top: 100vh;
     }
 
     .bt {
@@ -733,7 +736,7 @@ footer {
 
 
     #particles-js {
-        height: 58em;
+        height: 56em;
     }
 
     #nav {
@@ -791,7 +794,7 @@ footer {
 
 @media only screen and (max-width: 800px) {
     .banner-text {
-        left: 10vw;
+        left: 0;
     }
 
     .banner-box {
