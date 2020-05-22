@@ -3,7 +3,7 @@ $(function(){
     var clicked = 0;
     $('.menu-btn').click(function(e){
 
-        var screen_height = $(window).height() - $('nav').height();
+        var screen_height = $(window).height() - $('nav').height('90vh');
 
         $(this).toggleClass('active');
         $('body').toggleClass('menu-active');
