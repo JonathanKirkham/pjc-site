@@ -10,7 +10,7 @@
         <h2>É o Nosso Projeto </h2>
         <h5>Descubra como uma empresa de jovens<h5>
         <h5>pode transformar sua empresa</h5>
-         <a class="bt" href="#" role="button">Saiba Mais</a>
+        <a class="bt" href="#" role="button">Saiba Mais</a>
     </div>
     </div>
     <div id="particles-js">
