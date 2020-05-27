@@ -10,6 +10,7 @@
 </head>
     <header class="header">
         @include('partials.nav')
+        @include('partials.mob-menu')
     </header>
     <body>
         @yield('content')

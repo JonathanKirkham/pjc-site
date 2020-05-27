@@ -3,7 +3,6 @@
 </a>
 
 <nav id="nav" role="navigation">
-    <a class="hamburger menu-btn" onclick="nav"><span></span></a>
     <ul>
         <li><a href="{{route('index')}}">Home</a></li>
         <li>
