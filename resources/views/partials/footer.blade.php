@@ -24,6 +24,9 @@
                      <a class="linkedin" href="https://www.linkedin.com/company/projetos-consultoria">
                          <img class="fb" src="../images/linkedin.png">
                      </a>
+                     <a onclick="scrollUp()" class="arrow bounce" id="backToTopButton" title="Go to top">
+                        <img class="arrowup" src="../images/arrowup.png">
+                     </a>
                  </li>
              </ul>
              <div class="copyright">

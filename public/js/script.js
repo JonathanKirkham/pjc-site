@@ -19,3 +19,14 @@ $(function () {
 		}
 	});
 });
+
+let backToTopButton = document.getElementById('backToTopButton');
+
+function scrollUp() {
+	window.scrollBy({
+		top: -1400,
+		behavior: 'smooth'
+	});
+
+}
+
