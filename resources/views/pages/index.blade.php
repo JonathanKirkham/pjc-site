@@ -16,7 +16,7 @@
     <div id="particles-js">
     </div>
     <section class="section-one">
-        <img class="image" src="../images/logo2.png">
+        <img class="image" src="../images/logo2.webp">
         <div class="text">
             <h1>Sobre</h1>
             <p>A Projetos Jr. Consultoria, é uma empresa Júnior multidisciplinar formada por alunos graduandos dos cursos de Administração,
@@ -28,7 +28,7 @@
         </div>
 </section>
     <section class="section-two">
-        <img class="image" src="../images/gem.png">
+        <img class="image" src="../images/gem.webp">
         <div class="text">
             <h1>Clientes</h1>
             <p>Contar com a Projetos Jr. no Recrutamento e Seleção  do nosso time foi uma escolha acertada.
@@ -44,7 +44,7 @@
         </div>
     </section>
     <section class="section-three">
-        <img class="image" src="../images/staff.jpg">
+        <img class="image" src="../images/staff.webp">
         <div class="text">
             <h1>Midia</h1>
             <p>Empresas Júnior preparam estudantes da graduação para o mercado de trabalho

@@ -1,5 +1,5 @@
 <a href="{{route('index')}}">
-    <img class="nav-logo" src="../images/logo.jpg" alt="Projetos Jr. Consultoria">
+    <img class="nav-logo" src="../images/logo.png" alt="Projetos Jr. Consultoria">
 </a>
 
 <nav id="nav" role="navigation">

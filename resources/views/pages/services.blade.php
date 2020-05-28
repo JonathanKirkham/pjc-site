@@ -10,7 +10,7 @@
 </div>
 <section class="flex-service-section">
 <div class="flex-section-box">
-    <img class="image" alt="Financeira" src="/images/people-service.jpg">
+    <img class="image" alt="Financeira" src="/images/people-service.webp">
     <h2>Financeira</h2>
     <ol>
         Em Gestão Financeira, oferecemos serviços de:
@@ -21,7 +21,7 @@
     <a class="bt" href="{{route('finance')}}">Vaja nossos Financeira</a>
 </div>
 <div class="flex-section-box">
-    <img class="image" alt="Marketing" src="/images/marketing-service.jpg">
+    <img class="image" alt="Marketing" src="/images/marketing-service.webp">
     <h2>Marketing</h2>
     <ol>
         Em Marketing oferecemos serviços de:
@@ -35,7 +35,7 @@
     <a class="bt">Vaja nossos Marketing</a>
 </div>
 <div class="flex-section-box">
-    <img class="image" alt="Pessoas" src="/images/people-service.jpg">
+    <img class="image" alt="Pessoas" src="/images/people-service.webp">
     <h2>Pessoas</h2>
     <ol>
         Em Gestão de Pessoas, oferecemos serviços de:
@@ -46,7 +46,7 @@
     <a class="bt">Vaja nossos Pessoas</a>
 </div>
 <div class="flex-section-box">
-    <img class="image" alt="Processos" src="/images/marketing-service.jpg">
+    <img class="image" alt="Processos" src="/images/marketing-service.webp">
     <h2>Processos</h2>
     <ol>Fusce at bibendum eros. Suspendisse potenti. Praesent.
         <li>- Vivamus aliquet, risus.</li>

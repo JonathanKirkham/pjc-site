@@ -12,17 +12,17 @@
              <ul class="social">
                  <li>
                      <a class="facebook" href="https://www.facebook.com/projetosjrconsultoria/?__tn__=%2Cd%2CP-R&eid=ARBC09fYNmAUXT5IWcGoU2Bd7QLrzVTaWU-GVKUOKNGk1UmBfJilEZQ81MlKsk_OJW6Hn-PBZBX0UEYw">
-                         <img class="fb" src="../images/fb.webp">
+                         <img class="fb" src="../images/fb.png">
                      </a>
                  </li>
                  <li>
                      <a class="facebook" href="https://www.instagram.com/projetosjrconsultoria/">
-                         <img class="instagram" src="../images/ig.webp">
+                         <img class="instagram" src="../images/ig.png">
                      </a>
                  </li>
                  <li>
                      <a class="linkedin" href="https://www.linkedin.com/company/projetos-consultoria">
-                         <img class="fb" src="../images/linkedin.webp">
+                         <img class="fb" src="../images/linkedin.png">
                      </a>
                  </li>
              </ul>
