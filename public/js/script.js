@@ -20,7 +20,7 @@ $(function () {
 	});
 });
 
-let backToTopButton = document.getElementById('backToTopButton');
+let backToTopButton = document.getElementById('scrollToTopButton');
 
 function scrollUp() {
 	window.scrollBy({
