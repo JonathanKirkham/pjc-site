@@ -22,6 +22,7 @@
     particlesJS.load('particles-js', '../js/config.json', function() {
         console.log('callback - config.json config loaded');
     });
+
     </script>
     </body>
 </html>

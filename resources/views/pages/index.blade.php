@@ -12,6 +12,9 @@
         <h5>pode transformar sua empresa</h5>
         <a class="bt" href="#" role="button">Saiba Mais</a>
     </div>
+    <a onclick="scrollDown()" class="scroll-down-btn bounce">
+        <img src=../images/arrowdown.png>
+    </a>
     </div>
     <div id="particles-js">
     </div>

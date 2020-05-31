@@ -20,8 +20,6 @@ $(function () {
 	});
 });
 
-let backToTopButton = document.getElementById('scrollToTopButton');
-
 function scrollUp() {
 	window.scrollBy({
 		top: -1400,
@@ -29,4 +27,13 @@ function scrollUp() {
 	});
 
 }
+
+function scrollDown() {
+	window.scrollBy({
+		top: 730,
+		behavior: 'smooth'
+	});
+
+}
+
 

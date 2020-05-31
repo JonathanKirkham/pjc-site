@@ -1,3 +1,6 @@
+<a href="{{route('index')}}">
+    <img class="nav-logo" src="../images/logo.png" alt="Projetos Jr. Consultoria">
+</a>
 <nav id="mobile-nav" role="navigation">
     <a class="hamburger mobile-menu-btn"><span></span></a>
     <ul id="mobile-list-items">

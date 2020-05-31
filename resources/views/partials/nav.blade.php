@@ -19,3 +19,5 @@
         <li><a href="{{route('contact')}}">Contato</a></li>
     </ul>
 </nav>
+
+
