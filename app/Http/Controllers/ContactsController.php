@@ -6,10 +6,10 @@ use App\Mail\ContactMail;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Mail;
 
-class ContactController extends Controller
+class ContactsController extends Controller
 {
     public function store() {
-        # dd(request()->all());
+        #dd(request()->all());
         $data = request()->validate([
             'nome' => 'required|min: 3',
             'email' => 'required|email',

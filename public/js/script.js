@@ -1,3 +1,4 @@
+// JQUERY
 $(function () {
 	let clicked = 0;
 	$('.mobile-menu-btn').click(function (e) {
@@ -19,21 +20,25 @@ $(function () {
 		}
 	});
 });
+// END OF JQUERY
 
+
+// JAVASCRIPT
+document.getElementById('scrollToTopButton').addEventListener('click', scrollUp);
 function scrollUp() {
-	window.scrollBy({
-		top: -1400,
+	window.scrollTo({
+		top: 0,
 		behavior: 'smooth'
-	});
+	})
+};
 
-}
 
-function scrollDown() {
-	window.scrollBy({
+document.getElementById('scrollToContent').addEventListener('click', scrollToContent);
+function scrollToContent() {
+	window.scrollTo({
 		top: 730,
 		behavior: 'smooth'
-	});
-
-}
-
+	})
+};
+// END OF JAVASCRIPT
 

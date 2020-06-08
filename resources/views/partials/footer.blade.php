@@ -24,7 +24,7 @@
                      <a class="linkedin" href="https://www.linkedin.com/company/projetos-consultoria">
                          <img class="fb" src="../images/linkedin.png">
                      </a>
-                     <a onclick="scrollUp()" class="arrow bounce" id="scrollToTopButton">
+                     <a class="scroll-up-btn bounce" id="scrollToTopButton">
                         <img class="arrowup" src="../images/arrowup.png">
                      </a>
                  </li>
