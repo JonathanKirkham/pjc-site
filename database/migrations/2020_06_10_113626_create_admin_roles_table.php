@@ -19,6 +19,7 @@ class CreateAdminRolesTable extends Migration
             $table->integer('role_id');
             $table->timestamps();
         });
+
     }
 
     /**
