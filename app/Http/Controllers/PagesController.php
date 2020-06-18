@@ -35,7 +35,9 @@ class PagesController extends Controller
 
     public function blog() {
         $title = "Nossa Página de Blog";
-        return view('pages.blog')->with('title', $title);;
+        $categories = CategoryPost::orderBy('name', 'ASC')->where('is_published', '1')->get();
+        $posts = Post::orderBy('id', 'DESC')->where('post_type', 'post')->where('is_published', '1')->paginate();
+        return view('pages.blog')->with('title', $title)->compact('posts', 'categories');
     }
 
     public function people() {

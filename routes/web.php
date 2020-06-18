@@ -10,6 +10,9 @@
 | contains the "web" middleware group. Now create something great!
 |
 */
+
+Auth::routes();
+
 Route::get('/', 'PagesController@index')->name('index');
 
 Route::get('/services', 'PagesController@services')->name('services');
@@ -30,8 +33,23 @@ Route::get('/admin', 'PagesController@admin')->name('admin');
 
 Route::get('/contact', 'PagesController@contact')->name('contact');
 
+Route::get('category/[slug]', 'PagesController@category')->name('category');
+
+// Route::get('post/[slug]', 'PagesController@post')->name('post');
+
+
 Route::post('contact', 'ContactsController@store')->name('contact.store');
 
-Auth::routes();
-
 Route::resource('posts', 'PostController');
+
+Route::group(['prefix' => 'admin', 'middleware' => 'auth' ], function () {
+    Route::resource('categories', 'CategoryController' );
+    Route::resource('posts', 'PostController' );
+    Route::resource('galleries', 'GalleryController' );
+
+
+});
+
+Route::group(['prefix' => 'admin'], function () {
+    Voyager::routes();
+});
