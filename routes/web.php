@@ -42,13 +42,15 @@ Route::post('contact', 'ContactsController@store')->name('contact.store');
 
 Route::resource('posts', 'PostController');
 
-Route::group(['prefix' => 'admin', 'middleware' => 'auth' ], function () {
-    Route::resource('categories', 'CategoryController' );
-    Route::resource('posts', 'PostController' );
-    Route::resource('galleries', 'GalleryController' );
+// Route::group(['prefix' => 'admin', 'middleware' => 'auth' ], function () {
+//     Route::resource('categories', 'CategoryController' );
+//     Route::resource('posts', 'PostController' );
+//     Route::resource('galleries', 'GalleryController' );
 
 
-});
+// });
+
+
 
 Route::group(['prefix' => 'admin'], function () {
     Voyager::routes();
